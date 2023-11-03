@@ -1,0 +1,16 @@
+{
+  "name": "rr_ushang/i-am-a-writer",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Vrushang Patel",
+      "email": "vrushang.patel14@gmail.com",
+      "homepage": "",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/I-am-a-writer/"
+  },
+  "require": {}
+}
