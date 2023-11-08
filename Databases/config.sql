@@ -2,12 +2,6 @@ CREATE DATABASE IF NOT EXISTS `if0_35189511_task_generator`;
 USE if0_35189511_task_generator;
 
 -- Tasks Table
-CREATE TABLE Tasks (
-    Task_ID INT AUTO_INCREMENT PRIMARY KEY,
-    Task_code VARCHAR(64) NOT NULL,
-    Task_wait INT NOT NULL,
-);
-
 CREATE TABLE `Tasks` (
   `Task_ID` int(11) NOT NULL,
   `Task_code` varchar(64) CHARACTER SET ascii NOT NULL,
