@@ -2,7 +2,7 @@
 function generateFooter($pageType)
 {
     $footer = sprintf('
-    <footer class="footer has-background-info-dark">
+    <footer class="footer has-background-info-dark has-text-centered is-flex-align-items-flex-end mt-auto">
     <div class="container is-max-widescreen">
         <div class="columns">
         <div class="column has-text-white-ter">
@@ -29,6 +29,7 @@ function generateFooter($pageType)
         </div>
     </div>
     </footer>
+    </div>
     </html>');
     return $footer;
 };
